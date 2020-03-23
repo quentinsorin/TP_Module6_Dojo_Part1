@@ -1,0 +1,11 @@
+﻿@model BO.Samourai
+
+<h2>Details du samourai</h2>
+
+<div>
+    @Html.Partial("_Samourai", Model)
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
